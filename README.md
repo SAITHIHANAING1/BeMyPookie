@@ -19,7 +19,7 @@ A fun, interactive web page with a playful "Be My Pookie?" question featuring dy
 
 Simply open the page and answer the question! Try clicking "No" a few times and watch what happens... 😉
 
-##  Technologies Used
+## 🛠️ Technologies Used
 
 - HTML5
 - CSS
