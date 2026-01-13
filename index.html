@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A fun interactive Pookie's website">
+    <title>Be My Pookie?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <img src="before.png" class="monkey-meme" alt="Monkey meme">
+            <h1>Be My Pookie?</h1>
+            <div class="buttons">
+                <button id="yesBtn" class="yes-btn" aria-label="Click to say yes">Yes</button>
+                <button id="noBtn" class="no-btn" aria-label="Click to say no">No</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="successMessage" class="success-message" aria-live="polite">
+        <img src="after.png" class="monkey-meme" alt="Monkey meme">
+        <h1>Yayyyyyy:")</h1>
+        <p>That makes my heart skip a beat!</p>
+    </div>
+
+    <div id="confettiContainer" class="confetti-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
